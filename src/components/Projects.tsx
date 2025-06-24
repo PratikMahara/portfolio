@@ -33,7 +33,7 @@ const Projects = () => {
       github: "https://github.com/PratikMahara/backend-projec",
       demo: null,
       image: "🎥",
-      status: "In Development"
+      status: "Completed"
     }
   ];
 
