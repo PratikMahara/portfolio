@@ -1,8 +1,22 @@
-
 import { Github, ExternalLink, Code, Database } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "AI Interviewer",
+      description: "An AI-powered voice agent for conducting interviews with advanced speech recognition and response capabilities.",
+      technologies: ["AI", "Voice Recognition", "Node.js", "Express.js"],
+      features: [
+        "Voice-based interview interaction",
+        "Advanced speech recognition",
+        "Real-time response generation",
+        "User-friendly interface"
+      ],
+      github: "https://github.com/PratikMahara/voice-agent",
+      demo: null,
+      image: "🤖",
+      status: "Completed"
+    },
     {
       title: "School Management System",
       description: "A comprehensive backend system for managing school operations with user authentication, file uploads, and database management.",
